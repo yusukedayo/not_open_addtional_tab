@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Duplicate Tab Handler",
+  "version": "1.0",
+  "description": "Handle duplicate tabs in Google Chrome",
+  "permissions": ["tabs", "webNavigation"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icon.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "icon.png"
+  }
+}
